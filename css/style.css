@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+}
+
+.container {
+  width: 1045px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  display: inline-block;
+  margin: 23px 36px 23px 0;
+  padding: 13px 96px 13px 0;
+}
+
+.menu {
+  display: inline-block;
+  margin: auto 0;
+}
+.menu__list {
+  display: flex;
+  column-gap: 21px;
+}
+.menu__link {
+  color: #737373;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu__link:hover {
+  color: #252B42;
+}/*# sourceMappingURL=style.css.map */
