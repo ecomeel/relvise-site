@@ -19,14 +19,3 @@
     letter-spacing: 0.1px;
     color: $blue;
 }
-%description {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: $gray;
-}
-%title-desc {
-    @extend %description;
-    text-align: center;
-}

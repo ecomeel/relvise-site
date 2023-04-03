@@ -2,5 +2,11 @@ html, body {
     scroll-behavior: smooth;
     font-size: 14px;
     font-weight: 500;
+    line-height: 20px;
+    color: $gray;
+    letter-spacing: .2px;
     font-family: Montserrat, sans-serif ;
+}
+a {
+    letter-spacing: .2px;
 }
