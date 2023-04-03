@@ -96,4 +96,10 @@ html, body {
 }
 .menu__link:hover {
   color: #252B42;
+  border-bottom: 2px solid #252B42;
+}
+
+.intro__container {
+  padding-top: 184px;
+  padding-bottom: 191px;
 }/*# sourceMappingURL=style.css.map */

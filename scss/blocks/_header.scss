@@ -1,4 +1,5 @@
 .header {
+    // float:none
     &__logo {
         display: inline-block;
         margin: 23px 36px 23px 0;
@@ -25,6 +26,7 @@
         
         &:hover {
             color: $blue;
+            border-bottom: 2px solid $blue;
         }
     }
 }
