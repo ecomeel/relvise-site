@@ -1,0 +1,34 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    &__logo {
+        display: inline-block;
+        margin: 23px 36px 23px 0;
+        padding: 13px 96px 13px 0;
+        @extend %indep-title;
+    }
+}
+.menu {
+    display: inline-block;
+    margin: auto 0;
+    &__list {
+        display: flex;
+        column-gap: 21px;
+    }
+    &__item {
+
+    }
+    &__link {
+        color: $gray;
+        font-weight: 600;
+        line-height: 24px;
+        
+        &:hover {
+            color: $blue;
+            border-bottom: 2px solid $blue;
+        }
+    }
+}
+

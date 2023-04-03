@@ -1,0 +1,41 @@
+.intro {
+    background: url('../../img/main-block/cover.png') no-repeat;
+    background-size: cover;
+    background-position: 90%;
+    padding-top: 184px;
+    padding-bottom: 191px;
+
+    &__text-wrapper {
+        max-width: 509px;
+        & > *:not(:last-child) {
+            margin-bottom: 35px;
+        }
+    }
+    &__title {
+        font-size: 58px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: .2px;
+        color: $blue;
+    }
+    &__desc {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 376px;
+    }
+    &__button {
+        &_orange {
+            @include button(#fff, $orange, 37px, none, 10px 36px);
+            &:hover {
+                background-color: rgba($color: #000000, $alpha: .5);
+            }
+        }
+        &_green {
+            @include button($green, transparent, 37px, 1px solid $green, 10px 36px);
+            &:hover {
+                background-color: rgba($color: $blue, $alpha: .5);
+                color: white;
+            }
+        }
+    }
+}
