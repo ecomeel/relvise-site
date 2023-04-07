@@ -1,0 +1,37 @@
+.advices {
+    margin-top: 125px;
+    margin-bottom: 80px;
+    &__header {
+        margin-bottom: 45px;
+    }
+    &__list {
+        
+    }
+    &__item {
+    }
+}
+.advice {
+    flex: 1 1;
+    max-width: 240px;
+    &__text-wrapper {
+        margin-bottom: -10px !important;
+        padding: 30px 30px 50px 30px;
+        background-color: #fff;
+        .advice__title {
+            margin-bottom: 15px ;
+            @extend %subtitle;
+        }
+        .advice__desc {
+            
+        }
+    }
+    &__img {
+        width: 100%;
+    }
+}
+
+.advice:first-of-type {
+    .advice__text-wrapper {
+        padding-bottom: 30px;
+    }
+}

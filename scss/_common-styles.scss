@@ -2,3 +2,26 @@
     max-width: 1045px;
     margin: 0 auto;
 }
+
+.tiles-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    .tile > *:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.title-wrapper {
+    width: 864px;
+    margin: 0 auto;
+    text-align: center;
+    h2 {
+        margin-bottom: 10px;
+        @extend %title;
+    }
+    p {
+        margin: 0 176.5px;
+    }
+    
+}
