@@ -9,8 +9,6 @@
     &__item {
     }
 }
-.container {
-}
 .exp-tile {
     @include tile-properties (30px 34px, 240px);
     flex: 1 1;

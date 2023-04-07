@@ -69,7 +69,7 @@ a {
   color: #252B42;
 }
 
-.exp-tile__title {
+.advice__text-wrapper .advice__title, .exp-tile__title {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -97,12 +97,12 @@ a {
   margin: 0 auto;
 }
 
-.tiles__list {
+.tiles-list {
   display: flex;
   justify-content: space-between;
   column-gap: 30px;
 }
-.tiles__list .tile > *:not(:last-child) {
+.tiles-list .tile > *:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -209,7 +209,6 @@ a {
   padding: 35px 40px;
   max-width: 328px;
   background-color: #fff;
-  height: 100%;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 .service > *:not(:last-child) {
@@ -232,7 +231,6 @@ a {
   padding: 30px 34px;
   max-width: 240px;
   background-color: #fff;
-  height: 100%;
   flex: 1 1;
 }
 .exp-tile__img {
@@ -245,4 +243,31 @@ a {
 .exp-tile__title {
   text-align: center;
   color: #737373;
+}
+
+.advices {
+  margin-top: 125px;
+  margin-bottom: 80px;
+}
+.advices__header {
+  margin-bottom: 45px;
+}
+.advice {
+  flex: 1 1;
+  max-width: 240px;
+}
+.advice__text-wrapper {
+  margin-bottom: -10px !important;
+  padding: 30px 30px 50px 30px;
+  background-color: #fff;
+}
+.advice__text-wrapper .advice__title {
+  margin-bottom: 15px;
+}
+.advice__img {
+  width: 100%;
+}
+
+.advice:first-of-type .advice__text-wrapper {
+  padding-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
