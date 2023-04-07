@@ -53,7 +53,7 @@ a {
   text-decoration: none;
 }
 
-.exp-tile__value, .title-wrapper h2 {
+.text-block__title, .exp-tile__value, .head-block h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
@@ -69,7 +69,7 @@ a {
   color: #252B42;
 }
 
-.advice__text-wrapper .advice__title, .exp-tile__title {
+.item__title, .advice__text-wrapper .advice__title, .exp-tile__title {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -106,15 +106,15 @@ a {
   margin-bottom: 10px;
 }
 
-.title-wrapper {
+.head-block {
   width: 864px;
   margin: 0 auto;
   text-align: center;
 }
-.title-wrapper h2 {
+.head-block h2 {
   margin-bottom: 10px;
 }
-.title-wrapper p {
+.head-block p {
   margin: 0 176.5px;
 }
 
@@ -252,9 +252,13 @@ a {
 .advices__header {
   margin-bottom: 45px;
 }
+
 .advice {
   flex: 1 1;
   max-width: 240px;
+}
+.advice:first-of-type .advice__text-wrapper {
+  padding-bottom: 30px;
 }
 .advice__text-wrapper {
   margin-bottom: -10px !important;
@@ -268,6 +272,43 @@ a {
   width: 100%;
 }
 
-.advice:first-of-type .advice__text-wrapper {
-  padding-bottom: 30px;
+.about-us {
+  padding: 100px 0;
+}
+.about-us__header {
+  margin-bottom: 100px;
+}
+.about-us__content {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 442px;
+  width: 597px;
+  background-image: url("../../img/who-we/pict.png");
+}
+
+.text-block {
+  padding-top: 20px;
+  max-width: 333px;
+}
+.text-block__title {
+  margin-bottom: 10px;
+}
+.text-block__desc {
+  margin-bottom: 50px;
+}
+
+.item__icon {
+  float: left;
+}
+.item__title {
+  margin-left: 52px;
+}
+.item__desc {
+  margin-left: 52px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */

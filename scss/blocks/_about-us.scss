@@ -1,0 +1,46 @@
+.about-us {
+    padding: 100px 0;
+    &__header {
+        margin-bottom: 100px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 442px;
+        width: 597px;
+        background-image: url('../../img/who-we/pict.png');
+
+    }
+}
+
+.text-block {
+    padding-top: 20px;
+    max-width: 333px;
+    &__title {
+        @extend %title;
+        margin-bottom: 10px;
+    }
+    &__desc {
+        margin-bottom: 50px;
+    }
+
+}
+.item {
+    &__icon {
+        float: left
+    }
+    &__title {
+        @extend %subtitle;
+        margin-left: 52px;
+    }
+    &__desc {
+        margin-left: 52px;
+        margin-bottom: 30px;
+
+    }
+}
