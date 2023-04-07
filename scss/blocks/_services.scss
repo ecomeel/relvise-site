@@ -1,16 +1,10 @@
 .services {
     margin-top: -111px;
-    &__list {
-        display: flex;
-        justify-content: space-between;
-        column-gap: 30px;
-    }
 }
 .service {
-    padding: 35px 40px;
-    max-width: 328px;
-    background-color: #fff;
-    &>*:not(:last-child) {
+    @include tile-properties(35px 40px, 328px);
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    & > *:not(:last-child) {
         margin-bottom: 10px;
     }
     &__title {
@@ -22,6 +16,4 @@
             color: #fff;
         }
     }
-
-
 }

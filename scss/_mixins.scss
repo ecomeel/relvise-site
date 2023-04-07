@@ -9,7 +9,9 @@
     display: inline-block;
 }
 
-// @mixin tile ($padding, $max-width) {
-//     padding: $padding;
-//     max-width: $max-width;
-// }
+@mixin tile-properties ($padding, $max-width) {
+    padding: $padding;
+    max-width: $max-width;
+    background-color: #fff;
+    height: 100%;
+}
