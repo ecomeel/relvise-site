@@ -149,7 +149,7 @@ a {
 }
 
 .intro {
-  background: url("../../img/main-block/cover.png") no-repeat;
+  background: url("../img/main-block/cover.png") no-repeat;
   background-size: cover;
   background-position: 90%;
   padding-top: 184px;
@@ -288,7 +288,7 @@ a {
   align-items: center;
   height: 442px;
   width: 597px;
-  background-image: url("../../img/who-we/pict.png");
+  background-image: url("../img/who-we/pict.png");
 }
 
 .text-block {
