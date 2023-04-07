@@ -53,7 +53,7 @@ a {
   text-decoration: none;
 }
 
-.header__logo {
+.service__title, .header__logo {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -161,4 +161,28 @@ a {
 .intro__button_green:hover {
   background-color: rgba(37, 43, 66, 0.5);
   color: white;
+}
+
+.services {
+  margin-top: -111px;
+}
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.service {
+  padding: 35px 40px;
+  max-width: 328px;
+  background-color: #fff;
+}
+.service > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+.service_green {
+  background-color: #0D5C63;
+}
+.service_green .service__title, .service_green .service__desc {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

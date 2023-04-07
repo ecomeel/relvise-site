@@ -1,0 +1,27 @@
+.services {
+    margin-top: -111px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+}
+.service {
+    padding: 35px 40px;
+    max-width: 328px;
+    background-color: #fff;
+    &>*:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    &__title {
+        @extend %indep-title;
+    }
+    &_green {
+        background-color: $green;
+        .service__title, .service__desc {
+            color: #fff;
+        }
+    }
+
+
+}
