@@ -118,6 +118,10 @@ button {
 .head-block h2 {
   margin-bottom: 10px;
 }
+.head-block p {
+  max-width: 500px;
+  margin: 0 auto;
+}
 
 .header {
   position: absolute;
@@ -477,12 +481,28 @@ button {
     max-width: 90px;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 480px) {
   .tile {
     max-width: 100%;
   }
   .service {
     max-width: 100% !important;
+  }
+  .intro {
+    background-position: 70%;
+  }
+  .intro__buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .intro__button_orange, .intro__button_green {
+    padding: 15px 40px;
+    text-align: center;
+  }
+  .intro__button_green {
+    background-color: #0D5C63;
+    color: #fff;
   }
   .about-us__photo {
     height: 300px;
@@ -491,6 +511,7 @@ button {
     width: 60px;
   }
   .news__subscribe {
+    padding: 15px;
     margin-top: 20px;
     flex-direction: column;
     row-gap: 20px;
@@ -498,5 +519,8 @@ button {
   .news__subscribe-title {
     max-width: 100%;
     text-align: center;
+  }
+  .news__send-wrapper {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */

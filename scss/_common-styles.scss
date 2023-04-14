@@ -20,5 +20,9 @@
         margin-bottom: 10px;
         @extend %title;
     }
+    p {
+        max-width: 500px;
+        margin: 0 auto;
+    }
     
 }

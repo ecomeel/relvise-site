@@ -62,79 +62,98 @@
   .about-us {
     padding: 0;
     &__header {
-        margin-bottom: 50px;
+      margin-bottom: 50px;
     }
     &__content {
-        flex-direction: column;
+      flex-direction: column;
     }
     &__photo {
-        width: 100%;
-        margin-right: 0;
+      width: 100%;
+      margin-right: 0;
     }
     .text-block {
-        max-width: 100%;
-        &__list {
-            display: flex;
-            column-gap: 20px;
-            justify-content: space-between;
-        }
-        &__title {
-            font-size: 35px;
-            text-align: center;
-        }
-        &__desc {
-            text-align: center;
-            width: 70%;
-            margin: 0 auto 50px;
-        }
+      max-width: 100%;
+      &__list {
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+      }
+      &__title {
+        font-size: 35px;
+        text-align: center;
+      }
+      &__desc {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto 50px;
+      }
     }
   }
   .news {
     &__subscribe {
-        padding-left: 15px;
-        padding-right: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
     &__subscribe-title {
-        font-size: 16px;
+      font-size: 16px;
     }
     &__input {
-        padding: 10px 0 10px 15px;
-        font-size: 16px;
-        max-width: 200px;
-        max-height: 43px;
+      padding: 10px 0 10px 15px;
+      font-size: 16px;
+      max-width: 200px;
+      max-height: 43px;
     }
     &__subscribe-btn {
-        max-height: 43px;
-        max-width: 90px;
+      max-height: 43px;
+      max-width: 90px;
     }
   }
 }
-
-@media (max-width: 440px) {
-    .tile {
-        max-width: 100%;
+@media (max-width: 480px) {
+  .tile {
+    max-width: 100%;
+  }
+  .service {
+    max-width: 100% !important;
+  }
+  .intro {
+    background-position: 70%;
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
     }
-    .service {
-        max-width: 100% !important;
+    &__button_orange,
+    &__button_green {
+      padding: 15px 40px;
+      text-align: center;
     }
-    .about-us {
-        &__photo {
-            height: 300px;
-        }
-        &__play {
-            width: 60px;
-        }
+    &__button_green {
+      background-color: $green;
+      color: #fff;
     }
-    .news {
-        &__subscribe {
-            margin-top: 20px;
-            flex-direction: column;
-            row-gap: 20px;
-        }
-        &__subscribe-title {
-            max-width: 100%;
-            text-align: center;
-        }
-
+  }
+  .about-us {
+    &__photo {
+      height: 300px;
     }
+    &__play {
+      width: 60px;
+    }
+  }
+  .news {
+    &__subscribe {
+      padding: 15px;
+      margin-top: 20px;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    &__subscribe-title {
+      max-width: 100%;
+      text-align: center;
+    }
+    &__send-wrapper {
+      margin: 0 auto;
+    }
+  }
 }
