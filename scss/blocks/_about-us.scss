@@ -8,12 +8,15 @@
         justify-content: space-between;
     }
     &__photo {
+        margin-right: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 442px;
         width: 597px;
         background-image: url('../img/who-we/pict.png');
+        background-repeat: no-repeat;
+        background-size: cover;
 
     }
 }
