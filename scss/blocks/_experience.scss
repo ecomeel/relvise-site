@@ -1,13 +1,10 @@
 .experience {
-    padding: 80px;
+    padding: 80px 0;
 
     &__header {
         margin-bottom: 50px;
     }
-    &__list {
-    }
-    &__item {
-    }
+
 }
 .exp-tile {
     @include tile-properties (30px 34px, 240px);

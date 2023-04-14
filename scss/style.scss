@@ -13,3 +13,116 @@
 @import "blocks/advices";
 @import "blocks/about-us";
 @import "blocks/news";
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 810px) {
+  .tiles-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    .tile {
+      flex: 1 1 auto;
+    }
+  }
+  .head__title {
+    font-size: 35px !important;
+  }
+  .header {
+    &__logo {
+      margin-right: 10px;
+    }
+  }
+  .intro {
+    padding-top: 120px;
+    &__text-wrapper {
+      max-width: 400px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 58px;
+    }
+    &__desc {
+      color: black;
+      opacity: 0.6;
+    }
+  }
+  .services {
+    .service {
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  }
+  .advices {
+    margin-top: 0;
+  }
+  .about-us {
+    padding: 0;
+    &__header {
+        margin-bottom: 50px;
+    }
+    &__content {
+        flex-direction: column;
+    }
+    &__photo {
+        width: 100%;
+        margin-right: 0;
+    }
+    .text-block {
+        max-width: 100%;
+        &__list {
+            display: flex;
+            column-gap: 20px;
+            justify-content: space-between;
+        }
+        &__title {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__desc {
+            text-align: center;
+            width: 70%;
+            margin: 0 auto 50px;
+        }
+    }
+  }
+  .news {
+    &__subscribe {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &__subscribe-title {
+        font-size: 16px;
+    }
+    &__input {
+        padding: 10px 0 10px 15px;
+        font-size: 16px;
+        max-width: 200px;
+        max-height: 43px;
+    }
+    &__subscribe-btn {
+        max-height: 43px;
+        max-width: 90px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+    .tile {
+        max-width: 100%;
+    }
+    .service {
+        max-width: 100% !important;
+    }
+    .news {
+        &__subscribe {
+            margin-top: 20px;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
+    }
+}

@@ -13,15 +13,12 @@
 }
 
 .head-block {
-    width: 864px;
+    max-width: 864px;
     margin: 0 auto;
     text-align: center;
     h2 {
         margin-bottom: 10px;
         @extend %title;
-    }
-    p {
-        margin: 0 176.5px;
     }
     
 }
