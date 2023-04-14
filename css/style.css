@@ -61,7 +61,7 @@ a {
   color: #252B42;
 }
 
-.service__title, .header__logo {
+.news__subscribe-title, .service__title, .header__logo {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -311,4 +311,69 @@ a {
 .item__desc {
   margin-left: 52px;
   margin-bottom: 30px;
+}
+
+.news {
+  margin-top: 36px;
+  position: relative;
+  height: 339px;
+  background-color: #fafafa;
+}
+.news__container {
+  position: relative;
+  z-index: 1;
+}
+.news__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 175px;
+}
+.news__subscribe {
+  padding: 30px 40px 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #17213C;
+}
+.news__subscribe-title {
+  max-width: 266px;
+  color: white;
+}
+.news__send-wrapper {
+  display: flex;
+  height: 58px;
+}
+.news__input {
+  box-sizing: border-box;
+  padding: 15px 0 15px 20px;
+  width: 333px;
+  border: none;
+  font-size: 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.news__input::placeholder {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.news__subscribe-btn {
+  box-sizing: border-box;
+  width: 117px;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 14px;
+  line-height: 28px;
+  color: white;
+  background-color: #FF7B47;
+}
+.news__blue-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-top: -40px;
+  width: 100%;
+  height: 73px;
+  background-color: #252B42;
 }/*# sourceMappingURL=style.css.map */
