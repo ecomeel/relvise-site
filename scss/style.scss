@@ -117,11 +117,23 @@
     .service {
         max-width: 100% !important;
     }
+    .about-us {
+        &__photo {
+            height: 300px;
+        }
+        &__play {
+            width: 60px;
+        }
+    }
     .news {
         &__subscribe {
             margin-top: 20px;
             flex-direction: column;
             row-gap: 20px;
+        }
+        &__subscribe-title {
+            max-width: 100%;
+            text-align: center;
         }
 
     }

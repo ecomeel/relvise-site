@@ -484,9 +484,19 @@ button {
   .service {
     max-width: 100% !important;
   }
+  .about-us__photo {
+    height: 300px;
+  }
+  .about-us__play {
+    width: 60px;
+  }
   .news__subscribe {
     margin-top: 20px;
     flex-direction: column;
     row-gap: 20px;
+  }
+  .news__subscribe-title {
+    max-width: 100%;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
